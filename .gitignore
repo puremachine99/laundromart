@@ -1,0 +1,11 @@
+node_modules
+dist
+.turbo
+.pnpm-store
+pnpm-lock.yaml
+*.log
+.env
+.env.*
+apps/**/.env
+coverage
+tmp

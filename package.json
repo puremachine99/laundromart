@@ -1,0 +1,14 @@
+{
+  "name": "laundromart",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev:backend": "pnpm --filter backend dev",
+    "dev:portal": "pnpm --filter owner-portal dev",
+    "dev:staff": "pnpm --filter staff-pwa dev",
+    "lint": "pnpm lint --recursive",
+    "build": "pnpm build --recursive",
+    "test": "pnpm test --recursive",
+    "format": "pnpm format --recursive"
+  }
+}

@@ -1,0 +1,95 @@
+/* [project]/apps/owner-portal/app/globals.css [app-client] (css) */
+:root {
+  --lightningcss-light: initial;
+  --lightningcss-dark: ;
+  color-scheme: light;
+  color: #0f172a;
+  background-color: #f8fafc;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8fafc;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.app-shell {
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+}
+
+.app-header {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background: #fffffff5;
+  border-bottom: 1px solid #0f172a14;
+}
+
+.app-header__inner {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.app-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.app-subtitle {
+  color: #0f172a99;
+  margin: 4px 0 0;
+  font-size: .9rem;
+}
+
+.app-main {
+  flex: 1;
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 32px 24px 48px;
+}
+
+.app-footer {
+  text-align: center;
+  color: #0f172a80;
+  background: #fffffff5;
+  border-top: 1px solid #0f172a14;
+  padding: 16px 0;
+  font-size: .75rem;
+}
+
+.grid {
+  gap: 16px;
+  display: grid;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #0f172a14;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 30px #0f172a0f;
+}
+
+.card__title {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card__meta {
+  color: #0f172a8c;
+  margin: 0;
+  font-size: .85rem;
+}
+
+/*# sourceMappingURL=apps_owner-portal_app_globals_d5060d08.css.map*/
